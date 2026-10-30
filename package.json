@@ -3,7 +3,7 @@
   "private": true,
   "packageManager": "pnpm@12.15.0",
   "scripts": {
-    "prepare": "node -e \"console.log('base prepare script')\"",
+    "prepare": "node scripts/prepare.mjs",
     "benchmarks": "node scripts/benchmarks.mjs"
   }
 }
